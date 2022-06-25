@@ -1,0 +1,54 @@
+/*CONTACT*/
+* {
+  background: #deebcc;
+  font-family: sans-serif;
+}
+
+div.join {
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  background: lightgrey;
+  margin-bottom: 30px;
+}
+
+form.entry {
+  text-align: justify;
+  font-size: 20px;
+  background: #deebcc;
+  margin-left: 20px;
+}
+
+form.radio {
+  text-align: justify;
+  font-size: 20px;
+  background: #deebcc;
+  padding: 20px;
+}
+
+form.check {
+  text-align: justify;
+  font-size: 10px;
+  background: #deebcc;
+  padding: 20px;
+}
+
+blockquote.info {
+  text-align: right;
+}
+
+nav {
+  font-weight: 800;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+img {
+  border: 3px solid lightgrey;
+  margin: auto;
+}

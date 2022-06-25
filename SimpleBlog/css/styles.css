@@ -1,0 +1,111 @@
+/*INDEX*/
+* {
+  background: #deebcc;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: justify;
+}
+
+hgroup {
+  text-align: center;
+}
+
+div.join {
+  width: 960px;
+  margin: auto;
+  padding: inherit;
+}
+
+article.cssx {
+  background: white;
+}
+
+article.cssy {
+  background: white;
+  border-top: 5px solid lightgrey;
+}
+
+article.cssz {
+  background: white;
+  border-top: 5px solid lightgrey;
+}
+
+footer.art {
+  margin-top: 10px;
+  text-align: right;
+  background: white;
+  font-weight: lighter;
+}
+
+nav.up {
+  font-weight: 800;
+  text-align: left;
+}
+
+h3.sub {
+  background: #deebcc;
+  font-weight: bold;
+}
+
+p.descr {
+  background: #deebcc;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: 90% justify;
+}
+
+nav.down {
+  font-weight: 800;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border: 5px solid lightgrey;
+}
+
+h3 {
+  background: white;
+}
+
+h4 {
+  font-weight: 400;
+  background: white;
+}
+
+time {
+  font-weight: lighter;
+  background: white;
+}
+
+p {
+  font-weight: lighter;
+  background: white;
+}
+
+aside {
+  font-weight: bold;
+  background: lightgrey;
+  text-align: center;
+  padding: inherit;
+}
+
+blockquote {
+  background: lightgrey;
+  text-align: left;
+}
+
+footer {
+  font-weight: bolder;
+  background: lightgrey;
+  text-align: justify;
+  margin-bottom: 30px;
+  padding-left: 405px;
+}
+
+img {
+  border: 3px solid lightgrey;
+  margin: auto;
+}

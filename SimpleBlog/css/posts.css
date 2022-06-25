@@ -1,0 +1,86 @@
+/*POSTS*/
+* {
+  background: #deebcc;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: justify;
+  padding: 10px;
+}
+
+h3 {
+  background: white;
+}
+
+h4 {
+  font-weight: 400;
+  background: white;
+}
+
+nav {
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+div.join {
+  width: 960px;
+  margin: auto;
+  padding: inherit;
+}
+
+section {
+  background: white;
+  border: 5px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+article.cssx {
+  background: white;
+}
+
+article.cssy {
+  background: white;
+  border-top: 5px solid lightgrey;
+}
+
+article.cssz {
+  background: white;
+  border-top: 5px solid lightgrey;
+}
+
+p {
+  font-weight: lighter;
+  background: white;
+}
+
+aside.link {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer.art {
+  margin-top: 10px;
+  text-align: right;
+  background: white;
+  font-weight: lighter;
+}
+
+time {
+  font-weight: lighter;
+  background: white;
+}
+
+footer {
+  font-weight: bolder;
+  background: lightgrey;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img {
+  border: 3px solid lightgrey;
+  margin: auto;
+}

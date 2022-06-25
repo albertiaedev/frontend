@@ -1,0 +1,32 @@
+/*ARTICLE*/
+* {
+  background: #deebcc;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: justify;
+  padding: 10px;
+}
+
+nav {
+  font-weight: 800;
+  text-align: center;
+}
+
+section {
+  text-align: justify;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  background: lightgrey;
+}
+
+img {
+  border: 3px solid lightgrey;
+  margin: auto;
+}

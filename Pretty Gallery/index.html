@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="J.A. Hernández">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Pretty Gallery</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+
+
+
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .b2t {
+        text-decoration: none;
+      }
+    </style>
+
+
+  </head>
+  <body>
+
+<header>
+  <div class="collapse bg-danger" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-white">Hello! My name is J.A. Hernández, here you will see a gallery made with Bootstrap 5 that contains a series of pictures collected from the Pixabay website.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Follow me on my networks -></h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">J.A. Hernández @Twitter</a></li>
+            <li><a href="#" class="text-white">J.A. Hernández @LinkedIn</a></li>
+            <li><a href="#" class="text-white">J.A. Hernández @GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-danger bg-danger shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>Pretty Gallery</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Welcome to</h1><br>
+        <h3 class="fw-light">Pretty Gallery</h3>
+        <p class="lead text-muted">This webpage has a collection of pictures found online, you'll be amazed by this great art...</p>
+        <p>
+          <a href="#" class="btn btn-danger my-2">View pictures</a>
+          <a href="#" class="btn btn-danger my-2">Add new picture</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-danger">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/mountain01.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/monta%c3%b1a-r%c3%ado-sol-bosque-corrige-7279430/">
+
+            <div class="card-body">
+              <p class="card-text">Sunset at Dordogne, Corrèze.<br>by Thomas Dardenne.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/ocean02.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/oceano-mar-faro-soledad-7279456/">
+
+            <div class="card-body">
+              <p class="card-text">Pointe du But, île d'Yeu.<br>by Thomas Dardenne.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/beach03.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/playa-monocromo-no-camino-mar-7279457/">
+
+            <div class="card-body">
+              <p class="card-text">Footprints in the sand, île d'Yeu.<br>by Thomas Dardenne.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/beach04.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/playa-mar-oceano-tropical-1236581/">
+
+            <div class="card-body">
+              <p class="card-text">Sunset at the beach.<br>by MustangJoe.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/mountain05.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/grundarfj%c3%b6r%c3%b0ur-kirkjufell-monta%c3%b1a-3516524/">
+
+            <div class="card-body">
+              <p class="card-text">Field in the mountains.<br>by MustangJoe.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/iceland06.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/islandia-paisaje-sey%c3%b0isfj%c3%b6r%c3%b0ur-3516723/">
+
+            <div class="card-body">
+              <p class="card-text">Flowers in Iceland fields.<br>by MustangJoe.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/tree07.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/%c3%a1rbol-flores-prado-tronco-de-arbol-276014/">
+
+            <div class="card-body">
+              <p class="card-text">White petaled flowers.<br>by Larisa Koshkina.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/road08.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/la-carretera-pavimento-paisaje-220058/">
+
+            <div class="card-body">
+              <p class="card-text">Roadway.<br>by Larisa Koshkina.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/river09.jpg" class="img-thumbnail" href="https://pixabay.com/es/photos/r%c3%ado-oto%c3%b1o-%c3%a1rboles-sale-de-follaje-219972/">
+
+            <div class="card-body">
+              <p class="card-text">Sunset by the river.<br>by Larisa Koshkina.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">View</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    <a href="https://github.com/jesusalberto18">Edit</a>
+                  </button>
+                </div>
+                <small class="text-muted">Posted yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <a href="#" class="b2t">Back to top</a>
+    <p class="float-end mb-1">
+    </p>
+    <p class="mb-1">This gallery shows images from <a href="https://pixabay.com/es/">Pixabay</a> free photo stock.</p>
+    <p class="mb-0">Created by J.A. Hernández.</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

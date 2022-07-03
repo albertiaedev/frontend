@@ -1,2 +1,2 @@
-# Frontend_Development
-In this repository you can find the code for many frontend webpages and websites made with html, css and others.
+# UI/UX
+In this repository you can find the code for many templates for UI/UX webpages and websites made with html, css and others.

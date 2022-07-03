@@ -1,2 +1,2 @@
-# UI/UX
-In this repository you can find the code for many templates for UI/UX webpages and websites made with html, css and others.
+# UX/UI
+In this repository you can find the code for many templates for UX/UI webpages and websites made with HTML, CSS and others.

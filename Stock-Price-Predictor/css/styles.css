@@ -1,0 +1,91 @@
+/*INDEX*/
+* {
+  background: #0448d1;
+  background-image: url("../images/stocks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  color: white
+}
+
+img.bull_bear {
+  display: block;
+  border: 5px solid #383b42;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+h2.a {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p.a {
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+}
+
+a.b {
+  display: block;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 30px;
+}
+
+p.b {
+  display: block;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+a.c {
+  display: block;
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 30px;
+}
+
+p.c {
+  display: block;
+  text-align: right;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+
+nav.up {
+  font-weight: 800;
+  text-align: left;
+}
+
+a.predict {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  background: #383b42;
+  margin: auto 30px;
+}

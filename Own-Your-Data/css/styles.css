@@ -1,0 +1,54 @@
+/*INDEX*/
+
+* {
+  background: #050505;
+  background-image: url("../images/landing-page.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: inherit;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: inherit;
+}
+
+p {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img.py02 {
+  display: block;
+  border: 5px solid #383b42;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.start {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}

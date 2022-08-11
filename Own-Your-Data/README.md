@@ -1,1 +1,1 @@
-
+Own-Your-Data is a webpages made with pure HTML & CSS that contains the links to notebooks.ai, an interesting tool that lets you run Jupyter Notebooks in your browser and includes the most important libraries for Data Science, not having to install anything in your system; also, in the footer it has links to my Github and LinkedIn accounts.

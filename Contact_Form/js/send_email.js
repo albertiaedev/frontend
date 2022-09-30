@@ -5,10 +5,10 @@ function sendEmail(){
     Host : "smtp.yourisp.com",
     Username : "username",
     Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    To : 'email',
+    From : document.getElementById("email").value,
+    Subject : "Contact Form",
+    Body : "You have a new request"
   }).then(
     message => alert(message)
   );

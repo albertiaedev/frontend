@@ -25,12 +25,14 @@ form {
 }
 
 h3, .required {
+  text-align: center;
   color: #555;
   font-weight: 800;
   margin-bottom: 30px;
 }
 
 .required {
+  text-align: left;
   font-size: 15px;
   margin-top: 30px;
 }
@@ -47,6 +49,8 @@ input, textarea {
 }
 
 button {
+  display: flex;
+  justify-content: center;
   padding: 15px;
   background: #ff5361;
   color: #fff;

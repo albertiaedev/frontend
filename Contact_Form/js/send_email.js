@@ -5,7 +5,7 @@ function sendEmail(){
     Host : "smtp.yourisp.com",
     Username : "username",
     Password : "password",
-    To : 'email',
+    To : 'youremail',
     From : document.getElementById("email").value,
     Subject : "Contact Form",
     Body : "You have a new request"
@@ -14,6 +14,6 @@ function sendEmail(){
     + "<br> Phone: " + document.getElementById("phone").value
     + "<br> Message <br>: " + document.getElementById("name").value
   }).then(
-    message => alert("Message sent to" + getElementById("email"))
+    message => alert("Message sent")
   );
 }

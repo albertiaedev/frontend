@@ -5,3 +5,19 @@
   background: #555;
 }
 /* nice gray background */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide[data-active] {
+  opacity: 1;
+}

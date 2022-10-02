@@ -3,9 +3,7 @@ const buttons = document.querySelector("[data-carousel1-button]")
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     const offset = button.dataset.carousel1button ==="next" ? 1 : -1
-    const slides = button
-    .closest("[data-carousel]")
-    .querySelector("[data-slides]")
+    const slides = button.closest("[data-carousel]").querySelector("[data-slides]")
     const activeSlide = slides.querySelector("[data-active]")
     let newIndex = [...slides.children].indexOf(activeSlide) + offset
 

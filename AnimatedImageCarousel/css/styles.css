@@ -28,3 +28,13 @@
 .slide[data-active] {
   opacity: 1;
 }
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+}

@@ -35,6 +35,14 @@
   opacity: 1;
 }
 
+.carousel-prev{
+  left: 1rem;
+}
+
+.carousel-next{
+  right: 1rem;
+}
+
 .carousel-prev, .carousel-next {
   position: absolute;
   background: none;
@@ -48,4 +56,14 @@
   border-radius: .25rem;
   padding: 0 .5rem;
   background-color: rgba(0, 0, 0, .1)
+}
+
+.carousel-prev:hover, .carousel-next:hover,
+.carousel-prev:focus, .carousel-next:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-prev:focus, .carousel-next:focus {
+  outline: 1px solid #000;
 }

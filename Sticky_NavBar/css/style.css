@@ -27,3 +27,14 @@ header nav a {
 	font-size: 1.3em;
 	margin: 1em;
 }
+
+div {
+	height: 1500px;
+	padding: 2em 6em 2em 6em;
+}
+
+p {
+	font-size: 1.4em;
+	color: #1e1e1e;
+	padding: 40px;
+}

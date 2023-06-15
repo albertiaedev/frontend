@@ -16,3 +16,14 @@ header {
 	display: flex;
 	align-items: center;
 }
+
+header nav {
+	padding: 1.5em 0 1.5em 5em;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #1e1e1e;
+	font-size: 1.3em;
+	margin: 1em;
+}

@@ -10,6 +10,8 @@ body {
 	background-color: #fff;
 }
 
+/* STICKY NAVBAR*/
+
 header {
 	background-color: #fff;
 	height: 5em;
@@ -17,6 +19,7 @@ header {
 	align-items: center;
 	position: sticky;
 	top: 0;
+	transition: background-color 0.4s ease-in-out;
 }
 
 header nav {
@@ -28,7 +31,19 @@ header nav a {
 	color: #1e1e1e;
 	font-size: 1.3em;
 	margin: 1em;
+	transition: color 0.4s ease-in-out;
 }
+
+header.scrolled {
+	background-color: #1e1e1e;
+	opacity: 0.98;
+}
+
+header.scrolled nav a {
+	color: #fff;
+}
+
+/* PARAGRAPHS*/
 
 div {
 	height: 1500px;

@@ -1,0 +1,40 @@
+.container-btn,
+.btn-clr {
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  font-weight: bold;
+  font-size: 38px;
+  color: #434343;
+  background-color: #fff;
+  border: 2px solid rgb(85, 46, 6);
+  border-radius: 25px;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container-btn:hover,
+.btn-clr:hover {
+  color: #fff;
+  background-color:  rgb(85, 46, 6);
+}
+
+.operator {
+  background-color: #c8cd32;
+}
+
+.operator:hover {
+  background-color: #90940d;
+}
+
+.btn-clr {
+  background-color: #c8cd32;
+}
+
+.btn-clr:hover {
+  color: #434343;
+  background-color: #fff;
+}

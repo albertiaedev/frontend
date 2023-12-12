@@ -1,0 +1,38 @@
+.container {
+    width: 750px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  }
+  
+  .image {
+    height: 100%;
+    width: auto;
+  }
+  
+  .text {
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  
+  .name-country {
+    font-size: 1.3rem;
+  }
+  
+  .role {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+  }
+  
+  .testimonial {
+    font-size: 1.1rem;
+    text-align: justify;
+  }

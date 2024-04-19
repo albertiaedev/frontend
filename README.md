@@ -1,6 +1,6 @@
 # Frontend - UX/UI Components
 
-In this repository you can find the code for many templates for UX/UI webpages and websites made with HTML, CSS and others.
+In this repository you can find the code for many templates for UI/UX components, webpages and websites made with HTML, CSS, JavaScript, React, Vue and more.
 <br>
 Follow the next steps to clone this repo:
 
@@ -11,11 +11,11 @@ The first thing you need to do is to open your terminal/cmd, access to the direc
 
 ### HTTPS
 
-```git clone https://github.com/albertiaedev/Frontend.git```
+```git clone https://github.com/albertiaedev/frontend.git```
 
 ### SSH
 
-```git clone git@github.com:albertiaedev/Frontend.git```
+```git clone git@github.com:albertiaedev/frontend.git```
 
 And that's it! It creates a local copy of this repository in your machine.
 
